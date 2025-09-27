@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "finmini-frontend",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_API_BASE": "https://finmini-backend.onrender.com/api"
+  }
+}

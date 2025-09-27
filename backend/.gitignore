@@ -1,0 +1,30 @@
+# Environment variables (CRITICAL!)
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Uploads folder (contains KYC documents)
+uploads/
+public/uploads/
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite
+*.db
+
+# PM2 logs
+.pm2/
+
+# Build files
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
